@@ -6,13 +6,8 @@
 import {APP_AUTHOR, APP_NAME} from "@/config";
 
 const copyright = () => {
-  let date = `2022 - ${new Date().getFullYear()}`
+  let date = ` ${new Date().getFullYear()}`
   return `© ${date} ${APP_NAME} Powered by ${APP_AUTHOR}`
 }
 
-const handleClick = () => {
-  // #ifdef H5
-  window.open("//app.yxbug.cn/")
-  // #endif
-}
 </script>
