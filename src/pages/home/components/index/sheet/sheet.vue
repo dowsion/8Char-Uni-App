@@ -79,7 +79,7 @@ import {useBookStore} from "@/store/book";
 
 const options = ref({
   gender:[{value:1,label:'男'},{value:2,label:'女'},],
-  model:[{ name: '阴历' }, { name: '四柱' }],
+  model:[{ name: '阳历' }, { name: '四柱' }],
   sect:[{value:1,label:'晚子时日柱算明天'},{value:2,label:'晚子时日柱算当天'},],
   timePicker:{
     year: true,
