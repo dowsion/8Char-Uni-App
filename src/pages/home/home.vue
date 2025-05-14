@@ -8,5 +8,4 @@
 <script setup>
 import HeadBox from './components/index/head/head.vue';
 import Sheet from './components/index/sheet/sheet.vue';
-import Bottom from './components/index/bottom/bottom.vue';
 </script>
